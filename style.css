@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  outline: none;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: rgba(255, 255, 255, 0.64);
+}
+
+body {
+  height: 100vh;
+  background-color: #000;
+}
+
+h1 {
+  color: #fff;
+  font-size: 22px;
+}
+
+.content h2 {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.navbar {
+  display: flex;
+  padding: 14px;
+  position: fixed;
+}
+
+.logo img{
+  max-width: 100%;
+  height: auto;
+  transition: 0.5s;
+}
+
+.logo img:hover {
+  transform: rotate(45deg);
+}
+
+
+.avatar {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+
+.avatar img {
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+}
+
+.content {
+  margin: 0 auto;
+  padding: 115px 14px;
+  max-width: 500px;
+}
+
+.main {
+  display: flex;
+  height: 110px;
+  align-items: center;
+  margin-bottom: 35px;
+}
+
+.main .right {
+  margin-left: 24px;
+}
+
+.main a,
+.detail .left p,
+#skills {
+  text-decoration: none;
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+  color: white;
+  opacity: 0.5;
+}
+
+.main a:hover,
+.detail .left a:hover,
+.detail .right a:hover {
+  text-decoration: underline;
+}
+
+.about h2 {
+  margin-bottom: 7px;
+}
+
+.about p {
+  margin-bottom: 49px;
+}
+
+.work-experience h2 {
+  margin-bottom: 35px;
+}
+
+.detail {
+  display: flex;
+  margin-bottom: 35px;
+}
+
+.detail .left {
+  width: 24%;
+}
+
+.detail .right {
+  display: flex;
+  flex-direction: column;
+  margin-left: 24px;
+}
+
+.detail .right i {
+  color: #fff;
+  font-size: 14px;
+  margin-left: 7px;
+}
+
+.detail .right a {
+  text-decoration: none;
+  color: #fff;
+}
+
+#desc {
+  margin: 7px 0;
+}
+
+.side-projects h2,
+.links h2 {
+  margin-top: 49px;
+  margin-bottom: 35px;
+}
+
+.side-projects img {
+  width: 36px;
+  height: auto;
+  margin-bottom: 14px;
+}
